@@ -6,3 +6,4 @@ venv/
 *.ipynb_checkpoints
 .DS_Store
 *.log
+online_retail_II.csv
