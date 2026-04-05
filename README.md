@@ -4,7 +4,7 @@
 An end-to-end machine learning project that predicts the future revenue of customers and segments them into meaningful groups using RFM analysis and K-Means clustering.
 
 ## Live Demo
-[Click here to view the app](your-streamlit-link-here)
+[Click here to view the app](https://clv-prediction-7a9ryeg3gnkyylsvmwegab.streamlit.app/)
 
 ## Problem Statement
 Businesses need to identify their most valuable customers and predict future spending to optimize marketing strategies. This project solves that using real UK e-commerce transaction data.
@@ -60,4 +60,4 @@ streamlit run app.py
 - Top 4 VIP customers generate disproportionate revenue
 
 ## Author
-Your Name — [LinkedIn](your-linkedin) | [GitHub](your-github)
+Ashit Nayak — [LinkedIn](https://www.linkedin.com/in/ashit-nayak-955b90313/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BUrnLwzKTXiSAk9YXV3dfg%3D%3D) | [GitHub](https://github.com/ashit0907)
