@@ -56,6 +56,7 @@ elif page == "CLV Prediction":
     monetary = st.slider("Monetary (total spend £)", 1, 50000, 1000)
     
     if st.button("Predict CLV"):
-        input_data = pd.DataFrame([[recency, frequency, monetary, 0, 0]], columns=['Recency', 'Frequency', 'Monetary', 'Cluster', 'Segment_encoded'])
+        input_data = pd.DataFrame([[recency, frequency, monetary, 0]], 
+                                   columns=['Recency', 'Frequency', 'Monetary', 'Cluster'])
         prediction = pkl.predict(input_data)[0]
         st.success(f"Predicted Future Revenue: £{prediction:,.2f}")
